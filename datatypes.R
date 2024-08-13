@@ -87,3 +87,9 @@ fruit
 
 fruit$type
 fruit$mass
+
+dogs <- data.frame(name = c("teddy", "khora", "waffle"),
+                   age = c(1, 2, 3))
+
+waffle_age <- dogs[dogs$name == "waffle",]$age
+waffle_age
